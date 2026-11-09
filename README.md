@@ -2,7 +2,9 @@
 
 A browser drum machine with a bassline and a guitar tuner, in a single HTML file — no install, no samples. All sounds are synthesized with the Web Audio API.
 
-Open `drum-machine.html` in a browser to use it.
+**Live:** https://robyoungsf.github.io/musictime/
+
+Or open `index.html` in a browser.
 
 ## Features
 
