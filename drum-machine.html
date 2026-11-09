@@ -109,13 +109,12 @@
     margin-top: 16px; padding-top: 14px; border-top: 1px dashed #3d414c;
   }
   .bass-controls { display: flex; flex-wrap: wrap; gap: 14px; align-items: flex-end; padding-bottom: 18px; border-bottom: 1px dashed #3d414c; }
-  .bass-hint { margin-bottom: 8px; }
   .bass-controls select { padding: 6px 30px 6px 10px; background-position: right 10px center; }
   .bass .step { font-size: 10px; font-weight: 800; color: #1a1a1a; display: flex; align-items: center; justify-content: center; }
 
   /* ---------- Tuner ---------- */
   .tuner {
-    margin-top: 24px; background: var(--panel2); border-radius: 12px; padding: 16px;
+    margin-top: 24px; padding-top: 20px; border-top: 1px dashed #3d414c;
     display: grid; grid-template-columns: 1fr 280px; gap: 20px; align-items: center;
   }
   .tuner h2 { margin: 0 0 12px; font-size: 14px; font-weight: 600; color: var(--muted); }
@@ -221,7 +220,6 @@
   <div class="grid" id="grid"></div>
 
   <section class="bass" aria-label="Bassline">
-    <div class="hint bass-hint">Click a bass step to add / remove · scroll over a note to change its pitch</div>
     <div class="grid" id="bassGrid"></div>
   </section>
 
